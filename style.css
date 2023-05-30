@@ -72,7 +72,7 @@ body{
 }
 .top .scroll{
    position:absolute;
-  top: 70%;
+  top: 90%;
    align-self: center;
 }
 .top .avt{
@@ -85,7 +85,7 @@ body{
 
 /* solutions */
 .solutions{
-    margin: 30px auto;
+    margin: 30px;
     display: flex;
 }
 .solutions .container{
@@ -280,6 +280,7 @@ margin-bottom: 50px;
     overflow: hidden;
 margin-top: 3rem;
 padding-top: 3rem;
+margin-bottom: 2rem;
 }
 .services .items{
     display: flex;
@@ -346,8 +347,13 @@ margin-left: 10px;
 }
 .map iframe{
     border-radius: 20px;
-    width: 80%;
+    width: 100%;
     padding: 2px 10px;
+}
+
+iframe+p{
+    margin-left: auto ;
+    font-size: 13px;
 }
 @media screen and (max-width:560px) {
     .full-width{
@@ -409,6 +415,10 @@ margin-left: 10px;
     .aligned-edge .graph{
 height: 30rem;
     }
+    .aligned-edge .graph .text {
+        height: 50%;
+        overflow: hidden;
+    }
     .aligned-edge h3{
         font-size: 20px;
         margin-top: 10px;
@@ -429,9 +439,6 @@ height: 30rem;
         width:100%;
         margin-bottom: 3px;
     }
-}
-iframe+p{
-    font-size: 13px;
 }
 @media screen and (max-width:767px) {
     /* aligned egde */
